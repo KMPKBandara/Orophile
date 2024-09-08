@@ -1,10 +1,23 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Post from './components/Post';
+import React from 'react';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div>test</div>
-     
+    <Routes>
+      <Route path='/' element={<Layout/>}>
+        <Route index element={
+            <Post/>
+        }/>
+        <Route path={'/login'} element={
+            <div>login page</div>
+        }/>
+      </Route>
+    </Routes>  
+    
   );
 }
 
