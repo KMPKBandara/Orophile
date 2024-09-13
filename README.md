@@ -1,6 +1,12 @@
 # Orophile
 A Person Who Loves Mountains
 
-Last Updated 9/9/2024
-Last Time 42:50 Authentication
-50.30
+Last Updated 9/10/2024
+Last Time 54.20
+
+Database 
+Username : kmpkbandara
+pw : 3yALa6jwOHAdE9es
+link : 
+mongodb+srv://kmpkbandara:<3yALa6jwOHAdE9es>@orophile.dlun7.mongodb.net/?retryWrites=true&w=majority&appName=Orophile
+
