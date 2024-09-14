@@ -7,4 +7,5 @@ const UserSchema = new Schema({
 });
 
 const UserModel = model('user', UserSchema);
-export default UserModel;
+
+module.exports = UserModel;
